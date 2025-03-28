@@ -28,6 +28,7 @@ const FormField = <T extends FieldValues>({
                     <Input
                         className="input"
                         placeholder={placeholder}
+                        type={type}
                         {...field} />
                 </FormControl>
             <FormMessage />
